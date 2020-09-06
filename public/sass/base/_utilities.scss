@@ -1,0 +1,262 @@
+// THIS FILE IS FOR UTILITY CLASSES
+
+//FONT SIZES
+.fs-xs {
+  font-size: $font-xs !important; // 10px, perfect for subtexts
+}
+
+.fs-s {
+  font-size: $font-s !important; // 12px, perfect for text
+}
+
+.fs-m {
+  font-size: $font-m !important; // 16px, the default value for normal browsers
+}
+
+.fs-l {
+  font-size: $font-l !important;
+}
+
+.fs-xl {
+  font-size: $font-xl !important;
+}
+
+.fs-xxl {
+  font-size: $font-xxl !important;
+}
+
+//MARGINS
+.m-top-xxs {
+  margin-top: $ds-xxs !important;
+}
+.m-top-xs {
+  margin-top: $ds-xs !important;
+}
+.m-top-s {
+  margin-top: $ds-s !important;
+}
+.m-top-m {
+  margin-top: $ds-m !important;
+}
+.m-top-l {
+  margin-top: $ds-l !important;
+}
+.m-top-xl {
+  margin-top: $ds-xl !important;
+}
+.m-top-xxl {
+  margin-top: $ds-xxl !important;
+}
+.m-top-n {
+  margin-top: 0 !important;
+}
+
+.m-bot-xxs {
+  margin-bottom: $ds-xxs !important;
+}
+.m-bot-xs {
+  margin-bottom: $ds-xs !important;
+}
+.m-bot-s {
+  margin-bottom: $ds-s !important;
+}
+.m-bot-m {
+  margin-bottom: $ds-m !important;
+}
+.m-bot-l {
+  margin-bottom: $ds-l !important;
+}
+.m-bot-xl {
+  margin-bottom: $ds-xl !important;
+}
+.m-bot-xxl {
+  margin-bottom: $ds-xxl !important;
+}
+.m-bot-n {
+  margin-bottom: 0 !important;
+}
+
+.m-left-xxs {
+  margin-left: $ds-xxs !important;
+}
+.m-left-xs {
+  margin-left: $ds-xs !important;
+}
+.m-left-s {
+  margin-left: $ds-s !important;
+}
+.m-left-m {
+  margin-left: $ds-m !important;
+}
+.m-left-l {
+  margin-left: $ds-l !important;
+}
+.m-left-xl {
+  margin-left: $ds-xl !important;
+}
+.m-left-xxl {
+  margin-left: $ds-xxl !important;
+}
+
+.m-right-xxs {
+  margin-right: $ds-xxs !important;
+}
+.m-right-xs {
+  margin-right: $ds-xs !important;
+}
+.m-right-s {
+  margin-right: $ds-s !important;
+}
+.m-right-m {
+  margin-right: $ds-m !important;
+}
+.m-right-l {
+  margin-right: $ds-l !important;
+}
+.m-right-xl {
+  margin-right: $ds-xl !important;
+}
+.m-right-xxl {
+  margin-right: $ds-xxl !important;
+}
+
+.m-xxs {
+  margin: $ds-xxs !important;
+}
+.m-xs {
+  margin: $ds-xs !important;
+}
+.m-s {
+  margin: $ds-s !important;
+}
+.m-m {
+  margin: $ds-m !important;
+}
+.m-l {
+  margin: $ds-l !important;
+}
+.m-xl {
+  margin: $ds-xl !important;
+}
+.m-xxl {
+  margin: $ds-xxl !important;
+}
+
+//PADDINGS
+.p-top-xxs {
+  padding-top: $ds-xxs !important;
+}
+.p-top-xs {
+  padding-top: $ds-xs !important;
+}
+.p-top-s {
+  padding-top: $ds-s !important;
+}
+.p-top-m {
+  padding-top: $ds-m !important;
+}
+.p-top-l {
+  padding-top: $ds-l !important;
+}
+.p-top-xl {
+  padding-top: $ds-xl !important;
+}
+.p-top-xxl {
+  padding-top: $ds-xxl !important;
+}
+
+.p-bot-xxs {
+  padding-bottom: $ds-xxs !important;
+}
+.p-bot-xs {
+  padding-bottom: $ds-xs !important;
+}
+.p-bot-s {
+  padding-bottom: $ds-s !important;
+}
+.p-bot-m {
+  padding-bottom: $ds-m !important;
+}
+.p-bot-l {
+  padding-bottom: $ds-l !important;
+}
+.p-bot-xl {
+  padding-bottom: $ds-xl !important;
+}
+.p-bot-xxl {
+  padding-bottom: $ds-xxl !important;
+}
+
+.p-left-xxs {
+  padding-left: $ds-xxs !important;
+}
+.p-left-xs {
+  padding-left: $ds-xs !important;
+}
+.p-left-s {
+  padding-left: $ds-s !important;
+}
+.p-left-m {
+  padding-left: $ds-m !important;
+}
+.p-left-l {
+  padding-left: $ds-l !important;
+}
+.p-left-xl {
+  padding-left: $ds-xl !important;
+}
+.p-left-xxl {
+  padding-left: $ds-xxl !important;
+}
+
+.p-right-xxs {
+  padding-right: $ds-xxs !important;
+}
+.p-right-xs {
+  padding-right: $ds-xs !important;
+}
+.p-right-s {
+  padding-right: $ds-s !important;
+}
+.p-right-m {
+  padding-right: $ds-m !important;
+}
+.p-right-l {
+  padding-right: $ds-l !important;
+}
+.p-right-xl {
+  padding-right: $ds-xl !important;
+}
+.p-right-xxl {
+  padding-right: $ds-xxl !important;
+}
+
+.p-xxs {
+  padding: $ds-xxs !important;
+}
+.p-xs {
+  padding: $ds-xs !important;
+}
+.p-s {
+  padding: $ds-s !important;
+}
+.p-m {
+  padding: $ds-m !important;
+}
+.p-l {
+  padding: $ds-l !important;
+}
+.p-xl {
+  padding: $ds-xl !important;
+}
+.p-xxl {
+  padding: $ds-xxl !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: $font-weight-bold;
+}

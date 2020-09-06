@@ -1,0 +1,22 @@
+.container {
+  padding: 1.5rem;
+  &--center {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  &--flex {
+    display: flex;
+  }
+
+  &--width-80 {
+    width: 80vw;
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}

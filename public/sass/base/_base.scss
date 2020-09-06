@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+  max-width: 100vw;
+  // background-color: rgba(63,61,86,0.05);
+}
+
+/**
+   * Make all elements from the DOM inherit from the parent box-sizing
+   * Since `*` has a specificity of 0, it does not override the `html` value
+   * making all elements inheriting from the root box-sizing value
+   * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+   */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+/*
+  3 IMPORTANT NOTE TO ALL DEVELOPERS FOR A MORE SANE Z-INDEX USAGE
+  > THE HIGHEST VALUES ALLOWED ARE:
+    >> 10 FOR OVERLAYS (e.g. DARK BG)
+    >> 12 FOR ELEMENTS ON TOP (e.g. MODAL, DRAWERS)
+  > DO NOT USE VALUES HIGHER THAN THE AFOREMENTIONED 2 HIGHEST VALUES
+*/
